@@ -1,0 +1,40 @@
+body {
+    display: flex; /*Modelo de caja*/
+    justify-content: center; /*Centrar contenido*/
+    align-items: center; /*Centrar contenido*/
+    height: 100vh; /*Altura del body*/
+    margin: 0; /*Margen body*/
+    background-color: rgb(253, 224, 198); /*Color de fondo del body*/
+}
+
+table {
+    border-collapse:collapse; /*Borde pegado entre celdas*/
+    border: 3px solid #5e1b77; /* Borde exterior y color del borde*/
+    width: 80%; /*Ancho de la tabla */
+    font-size: 1.5em; /*Tamaño fuente*/
+}
+
+th, td {
+    border: 2px solid #5e1b77; /*Tamaño y color borde celdas*/
+    padding: 15px; /*Padding para espacio en las celdas */
+    text-align: center; /*Centrar de texto*/
+    font-size: 1em;/*Tamaño fuente*/
+    font-family: Arial, sans-serif; /*Fuente */
+}
+
+th {
+    font-size: 26px; /*Tamaño fuente encabezados 26px */
+    background-color: #e7bbd4; /* Fondo de encabezados*/
+    color: #4a0e4d; /* Color fuente de encabezados*/
+}
+
+td {
+    background-color: #f3e5f5; /*Color fondo celdas*/
+}
+/* Estilo específico para la nueva fila de encabezado */
+thead tr:first-child th {
+    font-size: 28px; /*Tamaño fuente del título*/
+    background-color: #e884fc; /*Fondo título*/
+    color: white;/*Color de la fuente del título */
+}
+
